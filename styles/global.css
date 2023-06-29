@@ -696,14 +696,18 @@ HERO
   .Section-Hero .Flexbox-Right {
     width: 100%;
     max-width: 400px;
-    margin-left: 100px
   }
 }
 
 @media (max-width: 567px) {
   .Section-Hero .Flexbox-Right {
     max-width: 300px;
-    margin-left: 50px
+  }
+  .Section-Hero .Flexbox-Right > img{
+    width: 100%;
+    max-width: 200px;
+    transform: translateX(+50px);
+    display: block;
   }
 }
 
@@ -1202,6 +1206,7 @@ SECTION - TOKENOMICS
 @media (max-width: 967px) {
   .Section-Tokenomics .Section-Border-Image:nth-child(3) {
     top: 320px;
+    display: none;
   }
 }
 
@@ -1229,6 +1234,7 @@ SECTION - TOKENOMICS
   .Section-Tokenomics .Section-Border-Image:nth-child(4) {
     right: -100px;
     width: 240px;
+    display: none;
   }
 }
 

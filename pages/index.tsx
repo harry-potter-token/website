@@ -374,12 +374,6 @@ export default function Home({
               </div>
             </div>
           </div>
-          <div className="Section-Character">
-            <img
-              src="/static/media/luigi-car.50ba1ac313debbbd7db5.png"
-              alt="logo"
-            />
-          </div>
         </div>
       </section>
     </Layout>
