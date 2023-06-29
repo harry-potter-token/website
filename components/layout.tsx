@@ -70,6 +70,13 @@ export default function Layout({
                   </li>
                   <li>
                     <a
+                      target="_blank"
+                      href="https://harrypottertoken.gitbook.io/harry-potter-fan-token/">
+                      Whitepaper
+                    </a>
+                  </li>
+                  <li>
+                    <a
                       href="https://pancakeswap.finance/swap?outputCurrency=tokenaqui"
                       target="_blank">
                       Buy Now

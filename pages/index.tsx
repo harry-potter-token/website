@@ -301,6 +301,7 @@ export default function Home({
           backgroundSize: 'cover !important',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
+          paddingBottom: '20px',
         }}>
         <div
           className="Section-Border"
